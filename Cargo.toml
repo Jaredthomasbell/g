@@ -9,4 +9,7 @@ edition = "2021"
 thirtyfour = "0.31.0"
 tokio = { version = "1.0", features = ["full"] }
 url = "2.3.1"
+scraper = "0.16.0"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+select = "0.5"
 
